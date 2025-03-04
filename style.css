@@ -2,8 +2,15 @@
     background-color:  beige;
     width: 512px;
     height: 512px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1px;
+    justify-content: center;
 }
 
 #grid-container div {
     background-color:  cadetblue;
+    width: 29px;
+    height: 29px;
+    border: 1px solid #1f2937;
 }
