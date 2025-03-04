@@ -1,0 +1,9 @@
+#grid-container {
+    background-color:  beige;
+    width: 512px;
+    height: 512px;
+}
+
+#grid-container div {
+    background-color:  cadetblue;
+}
