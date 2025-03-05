@@ -10,11 +10,10 @@ for (let i = 0; i < 16; i++) {
     }
 }
 
-for (let i =0; i < 16*16; i++)
-{
+for (let i =0; i < 16*16; i++) {
     gridContainer.appendChild(pixelArr[i]);
 }
 
 function mouseOver(e) {
-    this.style.backgroundColor = "blue";
+    this.classList.add("mouse-over");
 }

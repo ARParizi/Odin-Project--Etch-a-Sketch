@@ -9,8 +9,12 @@
 }
 
 #grid-container div {
-    background-color:  cadetblue;
+    /* background-color:  cadetblue; */
     width: 29px;
     height: 29px;
     border: 1px solid #1f2937;
+}
+
+.mouse-over {
+    background-color: chocolate;
 }
